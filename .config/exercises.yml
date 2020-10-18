@@ -1,0 +1,5 @@
+exercises:
+    '1_Konfiguracja bazy danych': { max_points: 0, disabled: true }
+    '2_Obiektowa obsługa bazy danych': { max_points: 0, disabled: true }
+    '3_Aplikacja do obsługi użytkowników': { max_points: 0, disabled: true }
+    '4_Aplikacja do obsługi wiadomości': { max_points: 0, disabled: true }
