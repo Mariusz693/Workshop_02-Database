@@ -1,8 +1,6 @@
 import argparse
 
 from psycopg2 import connect, OperationalError
-from psycopg2.errors import UniqueViolation
-
 from clcrypto import check_password
 from models import Message, User
 

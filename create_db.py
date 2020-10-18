@@ -27,6 +27,7 @@ TABLE_MESSAGES = """
             );
             """
 
+
 def create_db(db):
     try:
         cnx = connect(
