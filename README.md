@@ -8,12 +8,15 @@ W trakcie warsztatu stworzony został prosty serwer komunikatów, składający s
 - aplikacja do wysyłania wiadomości.
 
 Skrypt budujący bazę danych
+
 Prosty skrypt tworzący bazę danych i tabele. Wielokrotne wywołanie skryptu przynosi ten sam efekt. Działa niezależnie od tego, czy mamy już utworzoną bazę danych, czy nie, czy w bazie danych są jakieś tabele, czy nie.
 
 Biblioteka do zarządzania bazą danych
+
 Zbiór klas służący do zarządzania tabelami w bazie danych. W tym celu został wykorzystamy wzorzec projektowy Active Record.
 
 Aplikacja do zarządzania użytkownikami
+
 Prosta aplikacja konsolowa, do zarządzania użytkownikami. Obsługuje takie zadania, jak:
 - listowanie użytkowników,
 - tworzenie nowego użytkownika,
@@ -22,6 +25,7 @@ Prosta aplikacja konsolowa, do zarządzania użytkownikami. Obsługuje takie zad
 Aplikacja obsługuje parametry, przekazywane do niej z poziomu konsoli. Wykorzystuje do tego bibliotekę argparse.
 
 Aplikacja do wysyłania wiadomości
+
 Kolejna aplikacja konsolowa, umożliwiająca przesyłanie wiadomości między użytkownikami. Implementuje takie funkcjonalności, jak:
 - wypisanie wszystkich komunikatów wysłanych do użytkownika,
 - wysłanie wiadomości.
